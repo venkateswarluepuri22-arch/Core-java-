@@ -1,0 +1,27 @@
+green is the first name for the java 
+oak is the statlite project name 
+so changed to oak  ,oak also exited so finally changed name 
+as java(been of coffee)
+
+
+java invented by "jammes gosley".
+1991 – Named "Oak": The programming language was initially named Oak after an oak tree.
+1992 – Star7 Demo: A prototype called Star7 was demonstrated.
+1995 – Renamed Java: Oak was renamed Java and officially introduced.
+1996 – JDK 1.0: The first official version of Java Development Kit (JDK 1.0) was released.
+2. The Problem
+Different devices used different chips and operating systems.
+C and C++ programs had to be recompiled or rewritten for different platforms.
+Software compatibility was a major problem.
+Developers wanted a common programming language that could work on different devices.
+3. The Idea: Write Once, Run Anywhere
+Java was created to solve this problem.
+Write the program once.
+Compile it into bytecode.
+Run the same bytecode on different platforms using the JVM (Java Virtual Machine).
+Example:
+A Java program can run on:
+Windows
+macOS
+Linux
+Main Goal: Write Once, Run Anywhere (WORA).
