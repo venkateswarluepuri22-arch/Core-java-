@@ -26,11 +26,42 @@ macOS
 Linux
 Main Goal: Write Once, Run Anywhere (WORA).
 
-
+How Java Evolved: 30 Years of Steady Upgrades
+Java has evolved over the years by introducing new features, improving performance, and making programming easier.
+1. Java 1.0 (1996)
+First official release of Java.
+Introduced JVM, core libraries and applets.
+Introduced the concept of Write Once, Run Anywhere.
+2. Java 5 (2004)
+Generics
+Annotations
+Enums
+Enhanced for-loop
+3. Java 8 (2014)
+Lambda expressions
+Stream API
+New Date and Time API
+Functional programming support
+4. Java 11 (2018)
+First LTS release after Java 8.
+Standard HTTP Client.
+Improved performance and security.
+5. Java 17 (2021)
+Records
+Sealed classes
+Pattern matching improvements
+Text blocks
+6. Java 21 (2023)
+Virtual threads
+Pattern matching for switch
+Record patterns
+Easier concurrent programming
+7. Java 25 (2025)
 Compact source files.
 Instance main methods.
 Compact object headers.
 Improved developer productivity.
+
 Important: What is LTS?
 LTS = Long-Term Support
 LTS versions receive long-term updates, security fixes and support.
