@@ -311,4 +311,16 @@ Special characters such as @, #, % and ! are not allowed.
 
 Variable names can be of any length.
 
+Scanner Meyhod : 
+  nextInt()
+  nextLong()
+  nextFloat()
+  nextDouble()
+  next()
+  nextLine()
+  next().charAt(0)
+  nextBoolean()
+
+
+
 
