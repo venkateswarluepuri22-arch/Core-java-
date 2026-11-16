@@ -82,3 +82,233 @@ Java  21      2023 Virtual Threads
 Java  25      2025 Compact Source Files
 
 jdk -> jre ->
+
+Primitive and Non-Primitive Data Types in Java
+In Java, data types are divided into two main categories:
+
+Primitive Data Types
+
+Non-Primitive Data Types
+
+1. Primitive Data Types
+Primitive data types are the basic, built-in data types in Java. They store simple values directly.
+
+Java has 8 primitive data types.
+
+Data type
+
+Size
+
+Example
+
+byte
+
+1 byte
+
+byte a = 10;
+
+short
+
+2 bytes
+
+short b = 1000;
+
+int
+
+4 bytes
+
+int c = 50000;
+
+long
+
+8 bytes
+
+long d = 98765L;
+
+float
+
+4 bytes
+
+float e = 10.5f;
+
+double
+
+8 bytes
+
+double f = 25.678;
+
+char
+
+2 bytes
+
+char g = 'A';
+
+boolean
+
+JVM-dependent
+
+boolean h = true;
+
+Example program:
+
+
+java
+public class Main {
+    public static void main(String[] args) {
+
+        int age = 25;
+        double salary = 25000.50;
+        char grade = 'A';
+        boolean isPassed = true;
+
+        System.out.println(age);
+        System.out.println(salary);
+        System.out.println(grade);
+        System.out.println(isPassed);
+    }
+}
+2. Non-Primitive Data Types
+Non-primitive data types are reference types. They refer to objects or arrays and can provide methods to perform operations.
+
+Examples:
+
+String
+
+Array
+
+Class
+
+Object
+
+Interface
+
+Enum
+
+Example program:
+
+
+java
+public class Main {
+    public static void main(String[] args) {
+
+        String name = "Rahul";
+
+        int[] numbers = {10, 20, 30};
+
+        System.out.println(name);
+        System.out.println(numbers[0]);
+    }
+}
+3. Difference between Primitive and Non-Primitive
+Primitive
+
+Non-Primitive
+
+Built-in basic data types
+
+Reference data types
+
+Has 8 types
+
+Many types
+
+Stores simple values
+
+Refers to objects or arrays
+
+Cannot call methods directly on primitive values
+
+Can have methods (depending on the type)
+
+Cannot be null
+
+Can be null
+
+Examples: int, char, boolean
+
+Examples: String, Array, Class
+
+4. Classification diagram
+Java Data Types
+
+Primitive
+
+8 types
+
+- byte
+
+- short
+
+- int
+
+- long
+
+- float
+
+- double
+
+- char
+
+- boolean
+
+Non-Primitive
+
+Reference types
+
+- String
+
+- Array
+
+- Class
+
+- Object
+
+- Interface
+
+- Enum
+
+5. Interview Questions
+Q1. How many primitive data types are available in Java?
+
+Answer: Java has 8 primitive data types.
+
+Q2. Is String a primitive data type?
+
+Answer: No. String is a non-primitive (reference) data type.
+
+Q3. Is Array a primitive data type?
+
+Answer: No. Array is a non-primitive reference type.
+
+Q4. What is the difference between int and Integer?
+
+Answer:
+
+int is a primitive data type.
+
+Integer is a wrapper class for int.
+
+Remember: Primitive = 8 basic data types. Non-primitive = String, Array, Class, Object, etc.
+
+
+
+2. Rules for declaring variables in Java
+There are some important rules to follow when creating variable names.
+
+Variable names can contain letters (A–Z, a–z), digits (0–9), underscore (_) and dollar sign ($).
+
+A variable name must start with a letter, underscore (_) or dollar sign ($).
+
+A variable name cannot start with a number.
+
+Spaces are not allowed in variable names.
+
+Java keywords cannot be used as variable names.
+
+Variable names are case-sensitive.
+
+Special characters such as @, #, % and ! are not allowed.
+
+Variable names can be of any length.
+
+
