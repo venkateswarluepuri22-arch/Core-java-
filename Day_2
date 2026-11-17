@@ -1,0 +1,18 @@
+1. What is Syntax?
+Syntax means the rules for writing a program in a programming language.
+
+
+2. What is System.out.println()?
+System.out.println() is a Java statement used to print output on the screen.
+Let's divide it into parts:
+Part	Meaning
+System	Java class
+out	Standard output stream
+println()	Prints something and moves to the next line
+
+
+
+3. Difference between print() and println()
+print(): Prints output on the same line.
+
+println(): Prints output and moves to the next line.
